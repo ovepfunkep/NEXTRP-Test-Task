@@ -1,2 +1,2 @@
 # NEXTRP-Test-Task
-Start greeting resource separatly if you want to test it!
+Start greeting resource separately if you want to test it!
