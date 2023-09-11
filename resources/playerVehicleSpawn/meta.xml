@@ -1,0 +1,6 @@
+<meta>
+     <info author="IncludeIntelligenct" type="script" description="Spawn personal vehicle on player command." />
+     <script src="destroyOnQuit.lua" type="server"/>
+     <script src="createVehicle.lua" type="server"/>
+     <script src="checkCarRestriction.lua" type="server"/>
+</meta>
