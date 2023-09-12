@@ -1,0 +1,7 @@
+<meta>
+     <info author="IncludeIntelligenct" type="script" description="Handler for vehicle controls." />
+     <script src="dontTurnOnEngine.lua" type="server"/>
+     <script src="toogleEngineBind.lua" type="client"/>
+     <script src="toogleLightsBind.lua" type="client"/>
+     <script src="vehicleJumpOnSurface.lua" type="client"/>
+</meta>
