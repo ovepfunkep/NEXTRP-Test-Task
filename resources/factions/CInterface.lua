@@ -101,7 +101,6 @@ if getElementData(localPlayer, "factionId") ~= false then addFactionInterface() 
 
 addEvent("sentPlayerFactionData", true)
 function setPlayerFaction(faction, factionPlayersData)
-	outputChatBox("started data")
 	playerFaction = faction
 	factionPlayers = factionPlayersData
 	if playerFaction.Leader == localPlayer then createFactionLeaderInterface() 
