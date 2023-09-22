@@ -1,0 +1,5 @@
+<meta>
+     <info author="IncludeIntelligenct" type="script" name="Resource for factions functional" description="Implements creating and editing factions." />
+     <script src="SController.lua" type="server"/>
+     <script src="CInterface.lua" type="client"/>
+</meta>
