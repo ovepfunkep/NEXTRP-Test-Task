@@ -45,7 +45,7 @@ function firePlayer(player)
 		if val == playerId then position = k break end
 	end
 
-	if faction.Leader = player then faction.Leader = nil end 
+	if faction.Leader == player then faction.Leader = nil end 
 
 	table.remove(faction.PlayersIds, position)
 	setElementData(player, "factionId", false)

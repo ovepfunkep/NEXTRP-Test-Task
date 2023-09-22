@@ -7,8 +7,10 @@ playerList = {}
 
 addEvent("becameLeader", true)
 function changeInterfaceToLeaders()
-	destroyElement(tabPanel)
-	createFactionLeaderInterface()
+	if tabPanel ~= nil then
+		destroyElement(tabPanel)
+		createFactionLeaderInterface()
+	end
 end
 addEventHandler("becameLeader", getRootElement(), changeInterfaceToLeaders)
 
@@ -99,6 +101,7 @@ if getElementData(localPlayer, "factionId") ~= false then addFactionInterface() 
 
 addEvent("sentPlayerFactionData", true)
 function setPlayerFaction(faction, factionPlayersData)
+	outputChatBox("started data")
 	playerFaction = faction
 	factionPlayers = factionPlayersData
 	if playerFaction.Leader == localPlayer then createFactionLeaderInterface() 
